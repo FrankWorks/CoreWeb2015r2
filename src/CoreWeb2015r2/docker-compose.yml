@@ -2,7 +2,7 @@ version: '2'
 
 services:
   coreweb2015r2:
-    image: user/coreweb2015r2${TAG}
+    image: frankfax/coreweb2015r2${TAG}
     build:
       context: .
       dockerfile: Dockerfile
